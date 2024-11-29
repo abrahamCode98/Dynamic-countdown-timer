@@ -1,0 +1,23 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+    background-image: url(img/xmastime.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+h1 {
+    font-size: 3rem;
+}
+.timer {
+    font-size: 2rem;
+}

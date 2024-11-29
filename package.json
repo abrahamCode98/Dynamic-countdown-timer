@@ -1,0 +1,18 @@
+{
+  "name": "new-year-countdown-group16",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abraham, Jameelah, Victor",
+  "license": "ISC",
+  "description": "A countdown application the displays countdown to the new year dynamically",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
