@@ -17,7 +17,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Calculate the time difference to the next New Year
 function displayTimeToNewYear() {
     const presentDate = new Date();
-    const getCurrentYear = date.getFullYear();
+    const getCurrentYear = presentDate.getFullYear();
     const nextYear = new Date(`January 1, ${getCurrentYear + 1} 00:00:00`);
     const timeDiff = nextYear - presentDate;
 
